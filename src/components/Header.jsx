@@ -12,7 +12,9 @@ const Header = ({ fontChoice }) => {
     const fontOptions = [
         {label: "Times New Roman", value: "Times New Roman"},
         {label: "Cursive", value: "Cursive"},
-        {label: "Impact", value: "Impact"}
+        {label: "Impact", value: "Impact"},
+        {label: "Spicy Rice", value:"Spicy Rice" },
+        {label: "Poetsen", value:"Poetsen One"}
     ]
     return(
         <div>
@@ -23,3 +25,4 @@ const Header = ({ fontChoice }) => {
 }
 
 export default Header;
+

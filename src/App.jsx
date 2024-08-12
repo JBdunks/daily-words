@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import data from './facts.json';
+import './assets/fonts.css'
 import DisplayFacts from './components/DisplayFacts';
 import Header from './components/Header';
 function App() {
